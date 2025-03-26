@@ -1,0 +1,6 @@
+{
+    "watch": ["src"],
+    "ext": "ts,tsx,json",
+    "exec": "ts-node ./app/page.tsx"
+  }
+  
