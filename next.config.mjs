@@ -21,7 +21,10 @@ const nextConfig = {
     parallelServerBuildTraces: true,
     parallelServerCompiles: true,
   },
-}
+  // Ensure that your basePath is set to your repository name
+  basePath: '/Portfolio',  // Replace 'Portfolio' with your repo name
+  assetPrefix: '/Portfolio/',  // Same as basePath
+};
 
 mergeConfig(nextConfig, userConfig)
 
